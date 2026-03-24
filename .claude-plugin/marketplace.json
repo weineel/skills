@@ -21,19 +21,19 @@
     {
       "name": "vibe-spec",
       "description": "将用户需求转化为 vibe-kanban 任务规划和工作流",
-      "source": "./skills/vibe-spec",
+      "source": "./skills",
       "strict": false,
       "skills": [
-        "./"
+        "./vibe-spec"
       ]
     },
     {
       "name": "translator",
       "description": "翻译技能，支持多语言互译",
-      "source": "./skills/translator",
+      "source": "./skills",
       "strict": false,
       "skills": [
-        "./"
+        "./translator"
       ]
     }
   ]
