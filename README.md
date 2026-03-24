@@ -77,23 +77,6 @@ description: 当 X 时使用此技能，用于做 Y
 - **循序渐进**：使用渐进式披露，将复杂内容放在参考文件中
 - **可测试**：为技能功能编写测试用例
 
-## 目录结构
-
-```
-skills/
-├── .claude-plugin/
-│   └── marketplace.json    # 插件配置文件
-├── skills/
-│   ├── vibe-spec/          # vibe-kanban 任务规划技能
-│   │   ├── SKILL.md
-│   │   └── evals/
-│   │       └── evals.json
-│   └── translator/         # 翻译技能
-│       └── SKILL.md
-├── commands/               # 自定义命令
-└── README.md
-```
-
 ## 开发和测试
 
 ### 运行技能测试
