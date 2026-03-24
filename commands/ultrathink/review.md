@@ -1,4 +1,5 @@
 ---
+name: ultrathink-review
 description: ultrathink模式，对目标内容进行多维度交叉检查，逐项给出问题定位和修改建议
 argument-hint: "[检查对象]"
 disable-model-invocation: true
