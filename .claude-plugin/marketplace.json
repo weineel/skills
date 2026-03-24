@@ -1,0 +1,18 @@
+{
+  "name": "weineel-skills",
+  "owner": {
+    "name": "weineel",
+    "email": "LiJF_wn@163.com"
+  },
+  "metadata": {
+    "description": "Weineel's skills for vibe-kanban and more",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "all",
+      "description": "所有技能/命令等",
+      "source": "./"
+    }
+  ]
+}
