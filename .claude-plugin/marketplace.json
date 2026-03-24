@@ -10,9 +10,31 @@
   },
   "plugins": [
     {
-      "name": "all",
-      "description": "所有技能/命令等",
-      "source": "./"
+      "name": "all-commands",
+      "description": "所有命令",
+      "source": "./",
+      "strict": false,
+      "commands": [
+        "./commands/"
+      ]
+    },
+    {
+      "name": "vibe-spec",
+      "description": "将用户需求转化为 vibe-kanban 任务规划和工作流",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/vibe-spec"
+      ]
+    },
+    {
+      "name": "translator",
+      "description": "翻译技能，支持多语言互译",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/translator"
+      ]
     }
   ]
 }
