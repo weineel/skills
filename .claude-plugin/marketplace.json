@@ -25,7 +25,17 @@
       "strict": false,
       "skills": [
         "./vibe-spec"
-      ]
+      ],
+      "mcpServers": {
+        "vibe_kanban": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "vibe-kanban@latest",
+            "--mcp"
+          ]
+        }
+      }
     },
     {
       "name": "translator",
