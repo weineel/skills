@@ -1,0 +1,23 @@
+{
+  "skill_name": "vibe-spec",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "新功能开发任务拆分",
+      "prompt": "我想开发一个新的用户认证功能，支持 JWT token 认证和刷新 token 机制。请用 vibe-kanban 帮我创建任务列表。",
+      "expected_output": "创建父 issue（用户认证功能）和多个子 issue（JWT 认证、刷新 token、测试等），任务之间有清晰的依赖关系，并询问是否启动 workspace"
+    },
+    {
+      "id": 2,
+      "eval_name": "Bug 修复任务",
+      "prompt": "用 vibe-kanban 创建一个任务来修复这个 bug：用户在登录时会话偶尔会丢失。",
+      "expected_output": "创建 issue 描述 bug 修复任务，包含问题分析、修复方案、测试验证等子任务"
+    },
+    {
+      "id": 3,
+      "eval_name": "重构任务规划",
+      "prompt": "我想重构现有的数据库层，把 Sequelize 迁移到 Prisma。用 vibe-kanban 规划一下任务。",
+      "expected_output": "创建完整的数据层重构任务列表，包含模型定义、迁移脚本、DAO 层改造、测试等，任务按依赖顺序组织"
+    }
+  ]
+}
