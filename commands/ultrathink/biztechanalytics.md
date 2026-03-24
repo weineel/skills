@@ -1,4 +1,5 @@
 ---
+name: ultrathink-biztechanalytics
 description: ultrathink 业务技术分析报告
 argument-hint: "[分析范围]"
 disable-model-invocation: true

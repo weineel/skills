@@ -1,4 +1,5 @@
 ---
+name: ultrathink-problem
 description: ultrathink 全面分析，定位问题
 argument-hint: "[问题描述]"
 disable-model-invocation: true

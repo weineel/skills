@@ -1,4 +1,5 @@
 ---
+name: ultrathink-analytics
 description: ultrathink 全面分析
 argument-hint: "[分析对象]"
 disable-model-invocation: true
