@@ -43,7 +43,9 @@ pnpx skills install weineel/skills@vibe-spec
 2. 添加插件到 Claude Code：
 
 ```bash
-/plugin install all@weineel-skills
+/plugin install all-commands@weineel-skills
+/plugin install vibe-spec@weineel-skills
+/plugin install translator@weineel-skills
 ```
 
 3. 使用技能：
