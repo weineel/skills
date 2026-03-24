@@ -15,7 +15,7 @@
       "source": "./commands",
       "strict": false,
       "commands": [
-        "./commands/"
+        "./"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "source": "./skills/vibe-spec",
       "strict": false,
       "skills": [
-        "./skills/vibe-spec"
+        "./"
       ]
     },
     {
@@ -33,7 +33,7 @@
       "source": "./skills/translator",
       "strict": false,
       "skills": [
-        "./skills/translator"
+        "./"
       ]
     }
   ]
