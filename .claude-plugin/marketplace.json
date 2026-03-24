@@ -12,7 +12,7 @@
     {
       "name": "all-commands",
       "description": "所有命令",
-      "source": "./",
+      "source": "./commands",
       "strict": false,
       "commands": [
         "./commands/"
@@ -21,7 +21,7 @@
     {
       "name": "vibe-spec",
       "description": "将用户需求转化为 vibe-kanban 任务规划和工作流",
-      "source": "./",
+      "source": "./skills/vibe-spec",
       "strict": false,
       "skills": [
         "./skills/vibe-spec"
@@ -30,7 +30,7 @@
     {
       "name": "translator",
       "description": "翻译技能，支持多语言互译",
-      "source": "./",
+      "source": "./skills/translator",
       "strict": false,
       "skills": [
         "./skills/translator"
