@@ -114,4 +114,5 @@ cd /path/to/skill
 
 ```shell
 pnpx skills install https://gitlab.com/gitlab-org/ai/skills.git
+pnpx skills install https://gitlab.com/gitlab-org/ai/skills.git -a codex
 ```
