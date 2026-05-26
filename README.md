@@ -109,3 +109,9 @@ cd /path/to/skill
 - [Anthropic Skills 文档](https://docs.anthropic.com/en/docs/agents-and-tools/skills-api)
 - [Claude Code 文档](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
 - [Vibe Kanban MCP](https://www.vibekanban.com/docs/integrations/vibe-kanban-mcp-server)
+
+### 其它 skill
+
+```shell
+pnpx skills install https://gitlab.com/gitlab-org/ai/skills.git
+```
